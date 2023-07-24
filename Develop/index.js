@@ -82,8 +82,10 @@ How to use: ${usage}
 ${license}
 
 ## Questions
-Github Username: ${GitHubUser}
-[Contribute at this repo link] (${contribute})
+Github Username: ${GitHubUser}  
+
+[Contribute at this repo link] (${contribute})  
+
 Email: ${email}`;
 
 // TODO: Create a function to initialize app
