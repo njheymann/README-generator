@@ -47,6 +47,7 @@ const generateREADME = ({
   GitHubUser,
   license,
   contribute,
+  email,
 }) =>
   `# ${title}
 
@@ -80,9 +81,10 @@ How to use: ${usage}
 
 ${license}
 
-## How to Contribute
+## Questions
 Github Username: ${GitHubUser}
-[Contribute at this repo link] (${contribute})`;
+[Contribute at this repo link] (${contribute})
+Email: ${email}`;
 
 // TODO: Create a function to initialize app
 inquirer
@@ -173,6 +175,11 @@ inquirer
       type: "input",
       name: "contribute",
       message: "Any contributions?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email?",
     },
   ])
   .then((answers) => {
