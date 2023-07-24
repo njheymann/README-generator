@@ -26,3 +26,18 @@ THEN this is added to the section of the README entitled questions with a link t
 WHEN I enter my email adress  
 THEN this is added to the section of the README entitled questions  
 
+## Description  
+A ReadMe generator that makes it quicker to create a professional markdown file  
+
+## Installation  
+node index.js
+
+## Demonstration video  
+https://drive.google.com/file/d/1XEEL4Sabebzd4pDGWwml8IYrScglczX9/view
+
+## Screenshots  
+![Screenshot 2023-07-24 111142](https://github.com/njheymann/README-generator/assets/125000756/4f901b8a-1d1f-48b7-a3b9-eba800ddcc3a)
+![Screenshot 2023-07-24 111150](https://github.com/njheymann/README-generator/assets/125000756/41756419-c715-4605-90d4-acfd3c0ca417)
+
+## Links  
+Repository url: https://github.com/njheymann/README-generator
